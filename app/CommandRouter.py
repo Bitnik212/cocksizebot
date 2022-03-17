@@ -1,9 +1,9 @@
 from aiogram import Dispatcher, types
 
 from app.handlers.InlineHandler import InlineHandler
-from commands.Command import Command
-from commands.MyCockSizeCommand import MyCockSizeCommand
-from commands.HelloCommand import HelloCommand
+from app.commands.Command import Command
+from app.commands.MyCockSizeCommand import MyCockSizeCommand
+from app.commands.HelloCommand import HelloCommand
 
 
 class CommandRouter:

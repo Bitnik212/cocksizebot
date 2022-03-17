@@ -1,4 +1,4 @@
-from dotenv import load_dotenv, dotenv_values
+from dotenv import dotenv_values
 from pathlib import Path
 
 
@@ -10,7 +10,7 @@ class Config:
 
     @property
     def project_root_folder(self) -> Path:
-        return Path(".").absolute().parent
+        return Path(".").absolute()
 
     @property
     def telegram_token(self) -> str:

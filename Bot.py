@@ -5,8 +5,8 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-from Config import Config
-from CommandRouter import CommandRouter
+from app.Config import Config
+from app.CommandRouter import CommandRouter
 
 
 class CocksizeBot:

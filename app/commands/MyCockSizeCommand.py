@@ -1,10 +1,9 @@
-import hashlib
 from random import Random
 
 from aiogram import Dispatcher, types
 from aiogram.types import InputMessageContent
 
-from .Command import Command
+from app.commands.Command import Command
 
 
 class MyCockSizeCommand(Command):

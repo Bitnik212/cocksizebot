@@ -1,7 +1,7 @@
 import hashlib
 
 from aiogram import types
-from aiogram.types import InlineQueryResultArticle, InputTextMessageContent, InputMessageContent
+from aiogram.types import InlineQueryResultArticle, InputTextMessageContent
 
 from app.Config import Config
 from app.commands.Command import Command

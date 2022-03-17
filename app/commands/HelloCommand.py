@@ -1,4 +1,4 @@
-from .Command import Command
+from app.commands.Command import Command
 from aiogram import types, Dispatcher
 
 
